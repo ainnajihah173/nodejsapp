@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
  
 app.get('/', (req, res) => {
-  res.send('Hello, MERN batch 3 2026!');
+  res.send('Hello, MERN batch 3 2026! Hi cuba test berjaya ke?');
 });
 
 app.get('/api/data', (req, res) => {
